@@ -1,0 +1,10 @@
+1.0 CONTEXTO DO PROBLEMA
+
+Uma pequena empresa tradicional e familiar de compra e venda de carros usados localizada em São Paulo, realiza seu processo por procura de carros olhando anuncio por anuncio no site Icarros. Por ser um processo manual e diario, a empresa perde tempo de produtividade. Com isso, os donos querem melhorar seus processos visando garatir eficiencia e ainda conseguir comprar melhores carros para seu negócio. 
+
+Neste mercado, se a empresa comprar carros que não venderão, perderá o dinheiro investido. Por outro lado, se comprar muito caro, precisará elevar o valor para conseguir margem, correndo risco de não vender por estar muito caro. Com isso, o objetivo é manter os produtos entre mercado e retorno. Pensando nisso, contratou alguém para ajuda-lo nesta missão.
+
+
+Tabela:
+
+Modeo | Marca | Motor | Ano | Km | Cor | Cambio | Preço | Descricao | Portas | Flex | freio ABS | Ar-condicionado | direção | Contato anunciante | estado | cidade | bairro
