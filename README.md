@@ -10,7 +10,7 @@ ETL para uma empresa que realiza Revenda de Carros Usados.
 
 # Contexto do Problema
 
-Uma pequena empresa tradicional e familiar de compra e venda de carros usados localizada em São Paulo, realiza seu processo por procura de carros olhando anúncio por anúncio no site Icarros. Por ser um processo manual e diario, a empresa perde tempo de produtividade.
+Uma pequena empresa tradicional e familiar de compra e venda de carros usados localizada em São Paulo, realiza seu processo por procura de carros olhando anúncio por anúncio no site [Icarros](https://www.icarros.com.br/comprar/usados/sao-paulo-sp). Por ser um processo manual e diario, a empresa perde tempo de produtividade.
 
 Com isso, os donos querem melhorar seus processos visando garatir eficiencia e ainda conseguir comprar melhores carros para seu negócio.
 
