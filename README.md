@@ -34,8 +34,6 @@ Com isso, os donos querem melhorar seus processos visando garatir eficiencia e a
   <img src="img/arquitetura_etl.JPG" width="1000" title="arquitetura-etl">
 </p>
 
-# Documentação
-
 # Entrega da Solução
 
 Envio do email:
