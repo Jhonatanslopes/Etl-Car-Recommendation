@@ -1,0 +1,204 @@
+2021-11-19 16:51:47 - DEBUG - urllib3.connectionpool - Starting new HTTPS connection (1): www.icarros.com.br:443 -
+2021-11-19 16:51:47 - DEBUG - urllib3.connectionpool - https://www.icarros.com.br:443 "GET /comprar/usados/sao-paulo-sp HTTP/1.1" 403 None -
+2021-11-19 16:51:47 - DEBUG - urllib3.connectionpool - Starting new HTTPS connection (1): www.icarros.com.br:443 -
+2021-11-19 16:51:48 - DEBUG - urllib3.connectionpool - https://www.icarros.com.br:443 "GET /ache/listaanuncios.jsp?bid=1&app=20&sop=nta_17%7C44%7C51.1_-kmm_1.1_-est_SP.1_-cid_9668.1_-rai_50.1_-esc_2.1_-sta_1.1_&pas=1&lis=0&pag=2&ord=22 HTTP/1.1" 403 None -
+2021-11-19 16:51:48 - INFO - etl_icarros -  Job 1: Extract data OK -
+2021-11-19 16:51:48 - INFO - etl_icarros - Dados derivados OK -
+2021-11-19 16:51:48 - INFO - etl_icarros - Mudança de tipos OK -
+2021-11-19 16:51:48 - INFO - etl_icarros - Job 2: Tranform data OK -
+2021-11-19 16:51:54 - DEBUG - mysql.connector.connection - new_auth_plugin: caching_sha2_password -
+2021-11-19 16:51:58 - INFO - etl_icarros - Job 3: Loading data OK -
+2021-11-19 16:54:04 - INFO - etl_icarros - Job 4: Send Email OK -
+2021-11-19 17:01:24 - DEBUG - urllib3.connectionpool - Starting new HTTPS connection (1): www.icarros.com.br:443 -
+2021-11-19 17:01:25 - DEBUG - urllib3.connectionpool - https://www.icarros.com.br:443 "GET /comprar/usados/sao-paulo-sp HTTP/1.1" 403 None -
+2021-11-19 17:01:25 - DEBUG - urllib3.connectionpool - Starting new HTTPS connection (1): www.icarros.com.br:443 -
+2021-11-19 17:01:25 - DEBUG - urllib3.connectionpool - https://www.icarros.com.br:443 "GET /ache/listaanuncios.jsp?bid=1&app=20&sop=nta_17%7C44%7C51.1_-kmm_1.1_-est_SP.1_-cid_9668.1_-rai_50.1_-esc_2.1_-sta_1.1_&pas=1&lis=0&pag=2&ord=22 HTTP/1.1" 403 None -
+2021-11-19 17:01:25 - INFO - etl_icarros -  Job 1: Extract data OK -
+2021-11-19 17:01:25 - INFO - etl_icarros - Dados derivados OK -
+2021-11-19 17:01:25 - INFO - etl_icarros - Mudança de tipos OK -
+2021-11-19 17:01:25 - INFO - etl_icarros - Job 2: Tranform data OK -
+2021-11-19 17:01:27 - DEBUG - mysql.connector.connection - new_auth_plugin: caching_sha2_password -
+2021-11-19 17:01:27 - INFO - etl_icarros - Job 3: Loading data OK -
+2021-11-19 17:01:35 - INFO - etl_icarros - Job 4: Send Email OK -
+2021-11-19 17:12:23 - DEBUG - urllib3.connectionpool - Starting new HTTPS connection (1): www.icarros.com.br:443 -
+2021-11-19 17:12:23 - DEBUG - urllib3.connectionpool - https://www.icarros.com.br:443 "GET /comprar/usados/sao-paulo-sp HTTP/1.1" 403 None -
+2021-11-19 17:12:23 - DEBUG - urllib3.connectionpool - Starting new HTTPS connection (1): www.icarros.com.br:443 -
+2021-11-19 17:12:23 - DEBUG - urllib3.connectionpool - https://www.icarros.com.br:443 "GET /ache/listaanuncios.jsp?bid=1&app=20&sop=nta_17%7C44%7C51.1_-kmm_1.1_-est_SP.1_-cid_9668.1_-rai_50.1_-esc_2.1_-sta_1.1_&pas=1&lis=0&pag=2&ord=22 HTTP/1.1" 403 None -
+2021-11-19 17:12:24 - INFO - etl_icarros -  Job 1: Extract data OK -
+2021-11-19 17:12:24 - INFO - etl_icarros - Dados derivados OK -
+2021-11-19 17:12:24 - INFO - etl_icarros - Mudança de tipos OK -
+2021-11-19 17:12:24 - INFO - etl_icarros - Job 2: Tranform data OK -
+2021-11-19 17:12:26 - DEBUG - mysql.connector.connection - new_auth_plugin: caching_sha2_password -
+2021-11-19 17:12:27 - INFO - etl_icarros - Job 3: Loading data OK -
+2021-11-19 17:13:38 - INFO - etl_icarros - Job 4: Send Email OK -
+2021-11-19 17:21:30 - DEBUG - urllib3.connectionpool - Starting new HTTPS connection (1): www.icarros.com.br:443 -
+2021-11-19 17:21:31 - DEBUG - urllib3.connectionpool - https://www.icarros.com.br:443 "GET /comprar/usados/sao-paulo-sp HTTP/1.1" 200 None -
+2021-11-19 17:21:32 - DEBUG - etl_icarros - URL: https://www.icarros.com.br/comprar/usados/sao-paulo-sp Value: 0 -
+2021-11-19 17:21:32 - DEBUG - etl_icarros - URL: https://www.icarros.com.br/comprar/usados/sao-paulo-sp Value: 1 -
+2021-11-19 17:21:32 - DEBUG - etl_icarros - URL: https://www.icarros.com.br/comprar/usados/sao-paulo-sp Value: 2 -
+2021-11-19 17:21:32 - DEBUG - etl_icarros - URL: https://www.icarros.com.br/comprar/usados/sao-paulo-sp Value: 3 -
+2021-11-19 17:21:32 - DEBUG - etl_icarros - URL: https://www.icarros.com.br/comprar/usados/sao-paulo-sp Value: 4 -
+2021-11-19 17:21:32 - DEBUG - etl_icarros - URL: https://www.icarros.com.br/comprar/usados/sao-paulo-sp Value: 5 -
+2021-11-19 17:21:32 - DEBUG - etl_icarros - URL: https://www.icarros.com.br/comprar/usados/sao-paulo-sp Value: 6 -
+2021-11-19 17:21:32 - DEBUG - etl_icarros - URL: https://www.icarros.com.br/comprar/usados/sao-paulo-sp Value: 7 -
+2021-11-19 17:21:32 - DEBUG - etl_icarros - URL: https://www.icarros.com.br/comprar/usados/sao-paulo-sp Value: 8 -
+2021-11-19 17:21:32 - DEBUG - etl_icarros - URL: https://www.icarros.com.br/comprar/usados/sao-paulo-sp Value: 9 -
+2021-11-19 17:21:32 - DEBUG - etl_icarros - URL: https://www.icarros.com.br/comprar/usados/sao-paulo-sp Value: 10 -
+2021-11-19 17:21:32 - DEBUG - etl_icarros - URL: https://www.icarros.com.br/comprar/usados/sao-paulo-sp Value: 11 -
+2021-11-19 17:21:32 - DEBUG - etl_icarros - URL: https://www.icarros.com.br/comprar/usados/sao-paulo-sp Value: 12 -
+2021-11-19 17:21:32 - DEBUG - etl_icarros - URL: https://www.icarros.com.br/comprar/usados/sao-paulo-sp Value: 13 -
+2021-11-19 17:21:32 - DEBUG - etl_icarros - URL: https://www.icarros.com.br/comprar/usados/sao-paulo-sp Value: 14 -
+2021-11-19 17:21:32 - DEBUG - etl_icarros - URL: https://www.icarros.com.br/comprar/usados/sao-paulo-sp Value: 15 -
+2021-11-19 17:21:32 - DEBUG - etl_icarros - URL: https://www.icarros.com.br/comprar/usados/sao-paulo-sp Value: 16 -
+2021-11-19 17:21:32 - DEBUG - etl_icarros - URL: https://www.icarros.com.br/comprar/usados/sao-paulo-sp Value: 17 -
+2021-11-19 17:21:32 - DEBUG - etl_icarros - URL: https://www.icarros.com.br/comprar/usados/sao-paulo-sp Value: 18 -
+2021-11-19 17:21:32 - DEBUG - etl_icarros - URL: https://www.icarros.com.br/comprar/usados/sao-paulo-sp Value: 19 -
+2021-11-19 17:21:32 - DEBUG - etl_icarros - URL: https://www.icarros.com.br/comprar/usados/sao-paulo-sp Value: 0 -
+2021-11-19 17:21:32 - DEBUG - etl_icarros - URL: https://www.icarros.com.br/comprar/usados/sao-paulo-sp Value: 1 -
+2021-11-19 17:21:32 - DEBUG - etl_icarros - URL: https://www.icarros.com.br/comprar/usados/sao-paulo-sp Value: 2 -
+2021-11-19 17:21:32 - DEBUG - etl_icarros - URL: https://www.icarros.com.br/comprar/usados/sao-paulo-sp Value: 3 -
+2021-11-19 17:21:32 - DEBUG - etl_icarros - URL: https://www.icarros.com.br/comprar/usados/sao-paulo-sp Value: 4 -
+2021-11-19 17:21:32 - DEBUG - etl_icarros - URL: https://www.icarros.com.br/comprar/usados/sao-paulo-sp Value: 5 -
+2021-11-19 17:21:32 - DEBUG - etl_icarros - URL: https://www.icarros.com.br/comprar/usados/sao-paulo-sp Value: 6 -
+2021-11-19 17:21:32 - DEBUG - etl_icarros - URL: https://www.icarros.com.br/comprar/usados/sao-paulo-sp Value: 7 -
+2021-11-19 17:21:32 - DEBUG - etl_icarros - URL: https://www.icarros.com.br/comprar/usados/sao-paulo-sp Value: 8 -
+2021-11-19 17:21:32 - DEBUG - etl_icarros - URL: https://www.icarros.com.br/comprar/usados/sao-paulo-sp Value: 9 -
+2021-11-19 17:21:32 - DEBUG - etl_icarros - URL: https://www.icarros.com.br/comprar/usados/sao-paulo-sp Value: 10 -
+2021-11-19 17:21:32 - DEBUG - etl_icarros - URL: https://www.icarros.com.br/comprar/usados/sao-paulo-sp Value: 11 -
+2021-11-19 17:21:32 - DEBUG - etl_icarros - URL: https://www.icarros.com.br/comprar/usados/sao-paulo-sp Value: 12 -
+2021-11-19 17:21:32 - DEBUG - etl_icarros - URL: https://www.icarros.com.br/comprar/usados/sao-paulo-sp Value: 13 -
+2021-11-19 17:21:32 - DEBUG - etl_icarros - URL: https://www.icarros.com.br/comprar/usados/sao-paulo-sp Value: 14 -
+2021-11-19 17:21:32 - DEBUG - etl_icarros - URL: https://www.icarros.com.br/comprar/usados/sao-paulo-sp Value: 15 -
+2021-11-19 17:21:32 - DEBUG - etl_icarros - URL: https://www.icarros.com.br/comprar/usados/sao-paulo-sp Value: 16 -
+2021-11-19 17:21:32 - DEBUG - etl_icarros - URL: https://www.icarros.com.br/comprar/usados/sao-paulo-sp Value: 17 -
+2021-11-19 17:21:32 - DEBUG - etl_icarros - URL: https://www.icarros.com.br/comprar/usados/sao-paulo-sp Value: 18 -
+2021-11-19 17:21:32 - DEBUG - etl_icarros - URL: https://www.icarros.com.br/comprar/usados/sao-paulo-sp Value: 19 -
+2021-11-19 17:21:32 - DEBUG - etl_icarros - URL: https://www.icarros.com.br/comprar/usados/sao-paulo-sp Value: 0 -
+2021-11-19 17:21:32 - DEBUG - etl_icarros - URL: https://www.icarros.com.br/comprar/usados/sao-paulo-sp Value: 1 -
+2021-11-19 17:21:32 - DEBUG - etl_icarros - URL: https://www.icarros.com.br/comprar/usados/sao-paulo-sp Value: 2 -
+2021-11-19 17:21:32 - DEBUG - etl_icarros - URL: https://www.icarros.com.br/comprar/usados/sao-paulo-sp Value: 3 -
+2021-11-19 17:21:32 - DEBUG - etl_icarros - URL: https://www.icarros.com.br/comprar/usados/sao-paulo-sp Value: 4 -
+2021-11-19 17:21:32 - DEBUG - etl_icarros - URL: https://www.icarros.com.br/comprar/usados/sao-paulo-sp Value: 5 -
+2021-11-19 17:21:32 - DEBUG - etl_icarros - URL: https://www.icarros.com.br/comprar/usados/sao-paulo-sp Value: 6 -
+2021-11-19 17:21:32 - DEBUG - etl_icarros - URL: https://www.icarros.com.br/comprar/usados/sao-paulo-sp Value: 7 -
+2021-11-19 17:21:32 - DEBUG - etl_icarros - URL: https://www.icarros.com.br/comprar/usados/sao-paulo-sp Value: 8 -
+2021-11-19 17:21:32 - DEBUG - etl_icarros - URL: https://www.icarros.com.br/comprar/usados/sao-paulo-sp Value: 9 -
+2021-11-19 17:21:32 - DEBUG - etl_icarros - URL: https://www.icarros.com.br/comprar/usados/sao-paulo-sp Value: 10 -
+2021-11-19 17:21:32 - DEBUG - etl_icarros - URL: https://www.icarros.com.br/comprar/usados/sao-paulo-sp Value: 11 -
+2021-11-19 17:21:32 - DEBUG - etl_icarros - URL: https://www.icarros.com.br/comprar/usados/sao-paulo-sp Value: 12 -
+2021-11-19 17:21:32 - DEBUG - etl_icarros - URL: https://www.icarros.com.br/comprar/usados/sao-paulo-sp Value: 13 -
+2021-11-19 17:21:32 - DEBUG - etl_icarros - URL: https://www.icarros.com.br/comprar/usados/sao-paulo-sp Value: 14 -
+2021-11-19 17:21:32 - DEBUG - etl_icarros - URL: https://www.icarros.com.br/comprar/usados/sao-paulo-sp Value: 15 -
+2021-11-19 17:21:32 - DEBUG - etl_icarros - URL: https://www.icarros.com.br/comprar/usados/sao-paulo-sp Value: 16 -
+2021-11-19 17:21:32 - DEBUG - etl_icarros - URL: https://www.icarros.com.br/comprar/usados/sao-paulo-sp Value: 17 -
+2021-11-19 17:21:32 - DEBUG - etl_icarros - URL: https://www.icarros.com.br/comprar/usados/sao-paulo-sp Value: 18 -
+2021-11-19 17:21:32 - DEBUG - etl_icarros - URL: https://www.icarros.com.br/comprar/usados/sao-paulo-sp Value: 19 -
+2021-11-19 17:21:32 - DEBUG - etl_icarros - URL: https://www.icarros.com.br/comprar/usados/sao-paulo-sp Value: 0 -
+2021-11-19 17:21:32 - DEBUG - etl_icarros - URL: https://www.icarros.com.br/comprar/usados/sao-paulo-sp Value: 1 -
+2021-11-19 17:21:32 - DEBUG - etl_icarros - URL: https://www.icarros.com.br/comprar/usados/sao-paulo-sp Value: 2 -
+2021-11-19 17:21:32 - DEBUG - etl_icarros - URL: https://www.icarros.com.br/comprar/usados/sao-paulo-sp Value: 3 -
+2021-11-19 17:21:32 - DEBUG - etl_icarros - URL: https://www.icarros.com.br/comprar/usados/sao-paulo-sp Value: 4 -
+2021-11-19 17:21:32 - DEBUG - etl_icarros - URL: https://www.icarros.com.br/comprar/usados/sao-paulo-sp Value: 5 -
+2021-11-19 17:21:32 - DEBUG - etl_icarros - URL: https://www.icarros.com.br/comprar/usados/sao-paulo-sp Value: 6 -
+2021-11-19 17:21:32 - DEBUG - etl_icarros - URL: https://www.icarros.com.br/comprar/usados/sao-paulo-sp Value: 7 -
+2021-11-19 17:21:32 - DEBUG - etl_icarros - URL: https://www.icarros.com.br/comprar/usados/sao-paulo-sp Value: 8 -
+2021-11-19 17:21:32 - DEBUG - etl_icarros - URL: https://www.icarros.com.br/comprar/usados/sao-paulo-sp Value: 9 -
+2021-11-19 17:21:32 - DEBUG - etl_icarros - URL: https://www.icarros.com.br/comprar/usados/sao-paulo-sp Value: 10 -
+2021-11-19 17:21:32 - DEBUG - etl_icarros - URL: https://www.icarros.com.br/comprar/usados/sao-paulo-sp Value: 11 -
+2021-11-19 17:21:32 - DEBUG - etl_icarros - URL: https://www.icarros.com.br/comprar/usados/sao-paulo-sp Value: 12 -
+2021-11-19 17:21:32 - DEBUG - etl_icarros - URL: https://www.icarros.com.br/comprar/usados/sao-paulo-sp Value: 13 -
+2021-11-19 17:21:32 - DEBUG - etl_icarros - URL: https://www.icarros.com.br/comprar/usados/sao-paulo-sp Value: 14 -
+2021-11-19 17:21:32 - DEBUG - etl_icarros - URL: https://www.icarros.com.br/comprar/usados/sao-paulo-sp Value: 15 -
+2021-11-19 17:21:32 - DEBUG - etl_icarros - URL: https://www.icarros.com.br/comprar/usados/sao-paulo-sp Value: 16 -
+2021-11-19 17:21:32 - DEBUG - etl_icarros - URL: https://www.icarros.com.br/comprar/usados/sao-paulo-sp Value: 17 -
+2021-11-19 17:21:32 - DEBUG - etl_icarros - URL: https://www.icarros.com.br/comprar/usados/sao-paulo-sp Value: 18 -
+2021-11-19 17:21:32 - DEBUG - etl_icarros - URL: https://www.icarros.com.br/comprar/usados/sao-paulo-sp Value: 19 -
+2021-11-19 17:21:32 - DEBUG - urllib3.connectionpool - Starting new HTTPS connection (1): www.icarros.com.br:443 -
+2021-11-19 17:21:33 - DEBUG - urllib3.connectionpool - https://www.icarros.com.br:443 "GET /ache/listaanuncios.jsp?bid=1&app=20&sop=nta_17%7C44%7C51.1_-kmm_1.1_-est_SP.1_-cid_9668.1_-rai_50.1_-esc_2.1_-sta_1.1_&pas=1&lis=0&pag=2&ord=22 HTTP/1.1" 200 None -
+2021-11-19 17:21:33 - DEBUG - etl_icarros - URL: https://www.icarros.com.br/ache/listaanuncios.jsp?bid=1&app=20&sop=nta_17|44|51.1_-kmm_1.1_-est_SP.1_-cid_9668.1_-rai_50.1_-esc_2.1_-sta_1.1_&pas=1&lis=0&pag=2&ord=22 Value: 0 -
+2021-11-19 17:21:33 - DEBUG - etl_icarros - URL: https://www.icarros.com.br/ache/listaanuncios.jsp?bid=1&app=20&sop=nta_17|44|51.1_-kmm_1.1_-est_SP.1_-cid_9668.1_-rai_50.1_-esc_2.1_-sta_1.1_&pas=1&lis=0&pag=2&ord=22 Value: 1 -
+2021-11-19 17:21:33 - DEBUG - etl_icarros - URL: https://www.icarros.com.br/ache/listaanuncios.jsp?bid=1&app=20&sop=nta_17|44|51.1_-kmm_1.1_-est_SP.1_-cid_9668.1_-rai_50.1_-esc_2.1_-sta_1.1_&pas=1&lis=0&pag=2&ord=22 Value: 2 -
+2021-11-19 17:21:33 - DEBUG - etl_icarros - URL: https://www.icarros.com.br/ache/listaanuncios.jsp?bid=1&app=20&sop=nta_17|44|51.1_-kmm_1.1_-est_SP.1_-cid_9668.1_-rai_50.1_-esc_2.1_-sta_1.1_&pas=1&lis=0&pag=2&ord=22 Value: 3 -
+2021-11-19 17:21:33 - DEBUG - etl_icarros - URL: https://www.icarros.com.br/ache/listaanuncios.jsp?bid=1&app=20&sop=nta_17|44|51.1_-kmm_1.1_-est_SP.1_-cid_9668.1_-rai_50.1_-esc_2.1_-sta_1.1_&pas=1&lis=0&pag=2&ord=22 Value: 4 -
+2021-11-19 17:21:33 - DEBUG - etl_icarros - URL: https://www.icarros.com.br/ache/listaanuncios.jsp?bid=1&app=20&sop=nta_17|44|51.1_-kmm_1.1_-est_SP.1_-cid_9668.1_-rai_50.1_-esc_2.1_-sta_1.1_&pas=1&lis=0&pag=2&ord=22 Value: 5 -
+2021-11-19 17:21:33 - DEBUG - etl_icarros - URL: https://www.icarros.com.br/ache/listaanuncios.jsp?bid=1&app=20&sop=nta_17|44|51.1_-kmm_1.1_-est_SP.1_-cid_9668.1_-rai_50.1_-esc_2.1_-sta_1.1_&pas=1&lis=0&pag=2&ord=22 Value: 6 -
+2021-11-19 17:21:33 - DEBUG - etl_icarros - URL: https://www.icarros.com.br/ache/listaanuncios.jsp?bid=1&app=20&sop=nta_17|44|51.1_-kmm_1.1_-est_SP.1_-cid_9668.1_-rai_50.1_-esc_2.1_-sta_1.1_&pas=1&lis=0&pag=2&ord=22 Value: 7 -
+2021-11-19 17:21:33 - DEBUG - etl_icarros - URL: https://www.icarros.com.br/ache/listaanuncios.jsp?bid=1&app=20&sop=nta_17|44|51.1_-kmm_1.1_-est_SP.1_-cid_9668.1_-rai_50.1_-esc_2.1_-sta_1.1_&pas=1&lis=0&pag=2&ord=22 Value: 8 -
+2021-11-19 17:21:33 - DEBUG - etl_icarros - URL: https://www.icarros.com.br/ache/listaanuncios.jsp?bid=1&app=20&sop=nta_17|44|51.1_-kmm_1.1_-est_SP.1_-cid_9668.1_-rai_50.1_-esc_2.1_-sta_1.1_&pas=1&lis=0&pag=2&ord=22 Value: 9 -
+2021-11-19 17:21:33 - DEBUG - etl_icarros - URL: https://www.icarros.com.br/ache/listaanuncios.jsp?bid=1&app=20&sop=nta_17|44|51.1_-kmm_1.1_-est_SP.1_-cid_9668.1_-rai_50.1_-esc_2.1_-sta_1.1_&pas=1&lis=0&pag=2&ord=22 Value: 10 -
+2021-11-19 17:21:33 - DEBUG - etl_icarros - URL: https://www.icarros.com.br/ache/listaanuncios.jsp?bid=1&app=20&sop=nta_17|44|51.1_-kmm_1.1_-est_SP.1_-cid_9668.1_-rai_50.1_-esc_2.1_-sta_1.1_&pas=1&lis=0&pag=2&ord=22 Value: 11 -
+2021-11-19 17:21:33 - DEBUG - etl_icarros - URL: https://www.icarros.com.br/ache/listaanuncios.jsp?bid=1&app=20&sop=nta_17|44|51.1_-kmm_1.1_-est_SP.1_-cid_9668.1_-rai_50.1_-esc_2.1_-sta_1.1_&pas=1&lis=0&pag=2&ord=22 Value: 12 -
+2021-11-19 17:21:33 - DEBUG - etl_icarros - URL: https://www.icarros.com.br/ache/listaanuncios.jsp?bid=1&app=20&sop=nta_17|44|51.1_-kmm_1.1_-est_SP.1_-cid_9668.1_-rai_50.1_-esc_2.1_-sta_1.1_&pas=1&lis=0&pag=2&ord=22 Value: 13 -
+2021-11-19 17:21:33 - DEBUG - etl_icarros - URL: https://www.icarros.com.br/ache/listaanuncios.jsp?bid=1&app=20&sop=nta_17|44|51.1_-kmm_1.1_-est_SP.1_-cid_9668.1_-rai_50.1_-esc_2.1_-sta_1.1_&pas=1&lis=0&pag=2&ord=22 Value: 14 -
+2021-11-19 17:21:33 - DEBUG - etl_icarros - URL: https://www.icarros.com.br/ache/listaanuncios.jsp?bid=1&app=20&sop=nta_17|44|51.1_-kmm_1.1_-est_SP.1_-cid_9668.1_-rai_50.1_-esc_2.1_-sta_1.1_&pas=1&lis=0&pag=2&ord=22 Value: 15 -
+2021-11-19 17:21:33 - DEBUG - etl_icarros - URL: https://www.icarros.com.br/ache/listaanuncios.jsp?bid=1&app=20&sop=nta_17|44|51.1_-kmm_1.1_-est_SP.1_-cid_9668.1_-rai_50.1_-esc_2.1_-sta_1.1_&pas=1&lis=0&pag=2&ord=22 Value: 16 -
+2021-11-19 17:21:33 - DEBUG - etl_icarros - URL: https://www.icarros.com.br/ache/listaanuncios.jsp?bid=1&app=20&sop=nta_17|44|51.1_-kmm_1.1_-est_SP.1_-cid_9668.1_-rai_50.1_-esc_2.1_-sta_1.1_&pas=1&lis=0&pag=2&ord=22 Value: 17 -
+2021-11-19 17:21:33 - DEBUG - etl_icarros - URL: https://www.icarros.com.br/ache/listaanuncios.jsp?bid=1&app=20&sop=nta_17|44|51.1_-kmm_1.1_-est_SP.1_-cid_9668.1_-rai_50.1_-esc_2.1_-sta_1.1_&pas=1&lis=0&pag=2&ord=22 Value: 18 -
+2021-11-19 17:21:33 - DEBUG - etl_icarros - URL: https://www.icarros.com.br/ache/listaanuncios.jsp?bid=1&app=20&sop=nta_17|44|51.1_-kmm_1.1_-est_SP.1_-cid_9668.1_-rai_50.1_-esc_2.1_-sta_1.1_&pas=1&lis=0&pag=2&ord=22 Value: 19 -
+2021-11-19 17:21:33 - DEBUG - etl_icarros - URL: https://www.icarros.com.br/ache/listaanuncios.jsp?bid=1&app=20&sop=nta_17|44|51.1_-kmm_1.1_-est_SP.1_-cid_9668.1_-rai_50.1_-esc_2.1_-sta_1.1_&pas=1&lis=0&pag=2&ord=22 Value: 0 -
+2021-11-19 17:21:33 - DEBUG - etl_icarros - URL: https://www.icarros.com.br/ache/listaanuncios.jsp?bid=1&app=20&sop=nta_17|44|51.1_-kmm_1.1_-est_SP.1_-cid_9668.1_-rai_50.1_-esc_2.1_-sta_1.1_&pas=1&lis=0&pag=2&ord=22 Value: 1 -
+2021-11-19 17:21:33 - DEBUG - etl_icarros - URL: https://www.icarros.com.br/ache/listaanuncios.jsp?bid=1&app=20&sop=nta_17|44|51.1_-kmm_1.1_-est_SP.1_-cid_9668.1_-rai_50.1_-esc_2.1_-sta_1.1_&pas=1&lis=0&pag=2&ord=22 Value: 2 -
+2021-11-19 17:21:33 - DEBUG - etl_icarros - URL: https://www.icarros.com.br/ache/listaanuncios.jsp?bid=1&app=20&sop=nta_17|44|51.1_-kmm_1.1_-est_SP.1_-cid_9668.1_-rai_50.1_-esc_2.1_-sta_1.1_&pas=1&lis=0&pag=2&ord=22 Value: 3 -
+2021-11-19 17:21:33 - DEBUG - etl_icarros - URL: https://www.icarros.com.br/ache/listaanuncios.jsp?bid=1&app=20&sop=nta_17|44|51.1_-kmm_1.1_-est_SP.1_-cid_9668.1_-rai_50.1_-esc_2.1_-sta_1.1_&pas=1&lis=0&pag=2&ord=22 Value: 4 -
+2021-11-19 17:21:33 - DEBUG - etl_icarros - URL: https://www.icarros.com.br/ache/listaanuncios.jsp?bid=1&app=20&sop=nta_17|44|51.1_-kmm_1.1_-est_SP.1_-cid_9668.1_-rai_50.1_-esc_2.1_-sta_1.1_&pas=1&lis=0&pag=2&ord=22 Value: 5 -
+2021-11-19 17:21:33 - DEBUG - etl_icarros - URL: https://www.icarros.com.br/ache/listaanuncios.jsp?bid=1&app=20&sop=nta_17|44|51.1_-kmm_1.1_-est_SP.1_-cid_9668.1_-rai_50.1_-esc_2.1_-sta_1.1_&pas=1&lis=0&pag=2&ord=22 Value: 6 -
+2021-11-19 17:21:33 - DEBUG - etl_icarros - URL: https://www.icarros.com.br/ache/listaanuncios.jsp?bid=1&app=20&sop=nta_17|44|51.1_-kmm_1.1_-est_SP.1_-cid_9668.1_-rai_50.1_-esc_2.1_-sta_1.1_&pas=1&lis=0&pag=2&ord=22 Value: 7 -
+2021-11-19 17:21:33 - DEBUG - etl_icarros - URL: https://www.icarros.com.br/ache/listaanuncios.jsp?bid=1&app=20&sop=nta_17|44|51.1_-kmm_1.1_-est_SP.1_-cid_9668.1_-rai_50.1_-esc_2.1_-sta_1.1_&pas=1&lis=0&pag=2&ord=22 Value: 8 -
+2021-11-19 17:21:33 - DEBUG - etl_icarros - URL: https://www.icarros.com.br/ache/listaanuncios.jsp?bid=1&app=20&sop=nta_17|44|51.1_-kmm_1.1_-est_SP.1_-cid_9668.1_-rai_50.1_-esc_2.1_-sta_1.1_&pas=1&lis=0&pag=2&ord=22 Value: 9 -
+2021-11-19 17:21:33 - DEBUG - etl_icarros - URL: https://www.icarros.com.br/ache/listaanuncios.jsp?bid=1&app=20&sop=nta_17|44|51.1_-kmm_1.1_-est_SP.1_-cid_9668.1_-rai_50.1_-esc_2.1_-sta_1.1_&pas=1&lis=0&pag=2&ord=22 Value: 10 -
+2021-11-19 17:21:33 - DEBUG - etl_icarros - URL: https://www.icarros.com.br/ache/listaanuncios.jsp?bid=1&app=20&sop=nta_17|44|51.1_-kmm_1.1_-est_SP.1_-cid_9668.1_-rai_50.1_-esc_2.1_-sta_1.1_&pas=1&lis=0&pag=2&ord=22 Value: 11 -
+2021-11-19 17:21:33 - DEBUG - etl_icarros - URL: https://www.icarros.com.br/ache/listaanuncios.jsp?bid=1&app=20&sop=nta_17|44|51.1_-kmm_1.1_-est_SP.1_-cid_9668.1_-rai_50.1_-esc_2.1_-sta_1.1_&pas=1&lis=0&pag=2&ord=22 Value: 12 -
+2021-11-19 17:21:33 - DEBUG - etl_icarros - URL: https://www.icarros.com.br/ache/listaanuncios.jsp?bid=1&app=20&sop=nta_17|44|51.1_-kmm_1.1_-est_SP.1_-cid_9668.1_-rai_50.1_-esc_2.1_-sta_1.1_&pas=1&lis=0&pag=2&ord=22 Value: 13 -
+2021-11-19 17:21:33 - DEBUG - etl_icarros - URL: https://www.icarros.com.br/ache/listaanuncios.jsp?bid=1&app=20&sop=nta_17|44|51.1_-kmm_1.1_-est_SP.1_-cid_9668.1_-rai_50.1_-esc_2.1_-sta_1.1_&pas=1&lis=0&pag=2&ord=22 Value: 14 -
+2021-11-19 17:21:33 - DEBUG - etl_icarros - URL: https://www.icarros.com.br/ache/listaanuncios.jsp?bid=1&app=20&sop=nta_17|44|51.1_-kmm_1.1_-est_SP.1_-cid_9668.1_-rai_50.1_-esc_2.1_-sta_1.1_&pas=1&lis=0&pag=2&ord=22 Value: 15 -
+2021-11-19 17:21:33 - DEBUG - etl_icarros - URL: https://www.icarros.com.br/ache/listaanuncios.jsp?bid=1&app=20&sop=nta_17|44|51.1_-kmm_1.1_-est_SP.1_-cid_9668.1_-rai_50.1_-esc_2.1_-sta_1.1_&pas=1&lis=0&pag=2&ord=22 Value: 16 -
+2021-11-19 17:21:33 - DEBUG - etl_icarros - URL: https://www.icarros.com.br/ache/listaanuncios.jsp?bid=1&app=20&sop=nta_17|44|51.1_-kmm_1.1_-est_SP.1_-cid_9668.1_-rai_50.1_-esc_2.1_-sta_1.1_&pas=1&lis=0&pag=2&ord=22 Value: 17 -
+2021-11-19 17:21:33 - DEBUG - etl_icarros - URL: https://www.icarros.com.br/ache/listaanuncios.jsp?bid=1&app=20&sop=nta_17|44|51.1_-kmm_1.1_-est_SP.1_-cid_9668.1_-rai_50.1_-esc_2.1_-sta_1.1_&pas=1&lis=0&pag=2&ord=22 Value: 18 -
+2021-11-19 17:21:33 - DEBUG - etl_icarros - URL: https://www.icarros.com.br/ache/listaanuncios.jsp?bid=1&app=20&sop=nta_17|44|51.1_-kmm_1.1_-est_SP.1_-cid_9668.1_-rai_50.1_-esc_2.1_-sta_1.1_&pas=1&lis=0&pag=2&ord=22 Value: 19 -
+2021-11-19 17:21:34 - DEBUG - etl_icarros - URL: https://www.icarros.com.br/ache/listaanuncios.jsp?bid=1&app=20&sop=nta_17|44|51.1_-kmm_1.1_-est_SP.1_-cid_9668.1_-rai_50.1_-esc_2.1_-sta_1.1_&pas=1&lis=0&pag=2&ord=22 Value: 0 -
+2021-11-19 17:21:34 - DEBUG - etl_icarros - URL: https://www.icarros.com.br/ache/listaanuncios.jsp?bid=1&app=20&sop=nta_17|44|51.1_-kmm_1.1_-est_SP.1_-cid_9668.1_-rai_50.1_-esc_2.1_-sta_1.1_&pas=1&lis=0&pag=2&ord=22 Value: 1 -
+2021-11-19 17:21:34 - DEBUG - etl_icarros - URL: https://www.icarros.com.br/ache/listaanuncios.jsp?bid=1&app=20&sop=nta_17|44|51.1_-kmm_1.1_-est_SP.1_-cid_9668.1_-rai_50.1_-esc_2.1_-sta_1.1_&pas=1&lis=0&pag=2&ord=22 Value: 2 -
+2021-11-19 17:21:34 - DEBUG - etl_icarros - URL: https://www.icarros.com.br/ache/listaanuncios.jsp?bid=1&app=20&sop=nta_17|44|51.1_-kmm_1.1_-est_SP.1_-cid_9668.1_-rai_50.1_-esc_2.1_-sta_1.1_&pas=1&lis=0&pag=2&ord=22 Value: 3 -
+2021-11-19 17:21:34 - DEBUG - etl_icarros - URL: https://www.icarros.com.br/ache/listaanuncios.jsp?bid=1&app=20&sop=nta_17|44|51.1_-kmm_1.1_-est_SP.1_-cid_9668.1_-rai_50.1_-esc_2.1_-sta_1.1_&pas=1&lis=0&pag=2&ord=22 Value: 4 -
+2021-11-19 17:21:34 - DEBUG - etl_icarros - URL: https://www.icarros.com.br/ache/listaanuncios.jsp?bid=1&app=20&sop=nta_17|44|51.1_-kmm_1.1_-est_SP.1_-cid_9668.1_-rai_50.1_-esc_2.1_-sta_1.1_&pas=1&lis=0&pag=2&ord=22 Value: 5 -
+2021-11-19 17:21:34 - DEBUG - etl_icarros - URL: https://www.icarros.com.br/ache/listaanuncios.jsp?bid=1&app=20&sop=nta_17|44|51.1_-kmm_1.1_-est_SP.1_-cid_9668.1_-rai_50.1_-esc_2.1_-sta_1.1_&pas=1&lis=0&pag=2&ord=22 Value: 6 -
+2021-11-19 17:21:34 - DEBUG - etl_icarros - URL: https://www.icarros.com.br/ache/listaanuncios.jsp?bid=1&app=20&sop=nta_17|44|51.1_-kmm_1.1_-est_SP.1_-cid_9668.1_-rai_50.1_-esc_2.1_-sta_1.1_&pas=1&lis=0&pag=2&ord=22 Value: 7 -
+2021-11-19 17:21:34 - DEBUG - etl_icarros - URL: https://www.icarros.com.br/ache/listaanuncios.jsp?bid=1&app=20&sop=nta_17|44|51.1_-kmm_1.1_-est_SP.1_-cid_9668.1_-rai_50.1_-esc_2.1_-sta_1.1_&pas=1&lis=0&pag=2&ord=22 Value: 8 -
+2021-11-19 17:21:34 - DEBUG - etl_icarros - URL: https://www.icarros.com.br/ache/listaanuncios.jsp?bid=1&app=20&sop=nta_17|44|51.1_-kmm_1.1_-est_SP.1_-cid_9668.1_-rai_50.1_-esc_2.1_-sta_1.1_&pas=1&lis=0&pag=2&ord=22 Value: 9 -
+2021-11-19 17:21:34 - DEBUG - etl_icarros - URL: https://www.icarros.com.br/ache/listaanuncios.jsp?bid=1&app=20&sop=nta_17|44|51.1_-kmm_1.1_-est_SP.1_-cid_9668.1_-rai_50.1_-esc_2.1_-sta_1.1_&pas=1&lis=0&pag=2&ord=22 Value: 10 -
+2021-11-19 17:21:34 - DEBUG - etl_icarros - URL: https://www.icarros.com.br/ache/listaanuncios.jsp?bid=1&app=20&sop=nta_17|44|51.1_-kmm_1.1_-est_SP.1_-cid_9668.1_-rai_50.1_-esc_2.1_-sta_1.1_&pas=1&lis=0&pag=2&ord=22 Value: 11 -
+2021-11-19 17:21:34 - DEBUG - etl_icarros - URL: https://www.icarros.com.br/ache/listaanuncios.jsp?bid=1&app=20&sop=nta_17|44|51.1_-kmm_1.1_-est_SP.1_-cid_9668.1_-rai_50.1_-esc_2.1_-sta_1.1_&pas=1&lis=0&pag=2&ord=22 Value: 12 -
+2021-11-19 17:21:34 - DEBUG - etl_icarros - URL: https://www.icarros.com.br/ache/listaanuncios.jsp?bid=1&app=20&sop=nta_17|44|51.1_-kmm_1.1_-est_SP.1_-cid_9668.1_-rai_50.1_-esc_2.1_-sta_1.1_&pas=1&lis=0&pag=2&ord=22 Value: 13 -
+2021-11-19 17:21:34 - DEBUG - etl_icarros - URL: https://www.icarros.com.br/ache/listaanuncios.jsp?bid=1&app=20&sop=nta_17|44|51.1_-kmm_1.1_-est_SP.1_-cid_9668.1_-rai_50.1_-esc_2.1_-sta_1.1_&pas=1&lis=0&pag=2&ord=22 Value: 14 -
+2021-11-19 17:21:34 - DEBUG - etl_icarros - URL: https://www.icarros.com.br/ache/listaanuncios.jsp?bid=1&app=20&sop=nta_17|44|51.1_-kmm_1.1_-est_SP.1_-cid_9668.1_-rai_50.1_-esc_2.1_-sta_1.1_&pas=1&lis=0&pag=2&ord=22 Value: 15 -
+2021-11-19 17:21:34 - DEBUG - etl_icarros - URL: https://www.icarros.com.br/ache/listaanuncios.jsp?bid=1&app=20&sop=nta_17|44|51.1_-kmm_1.1_-est_SP.1_-cid_9668.1_-rai_50.1_-esc_2.1_-sta_1.1_&pas=1&lis=0&pag=2&ord=22 Value: 16 -
+2021-11-19 17:21:34 - DEBUG - etl_icarros - URL: https://www.icarros.com.br/ache/listaanuncios.jsp?bid=1&app=20&sop=nta_17|44|51.1_-kmm_1.1_-est_SP.1_-cid_9668.1_-rai_50.1_-esc_2.1_-sta_1.1_&pas=1&lis=0&pag=2&ord=22 Value: 17 -
+2021-11-19 17:21:34 - DEBUG - etl_icarros - URL: https://www.icarros.com.br/ache/listaanuncios.jsp?bid=1&app=20&sop=nta_17|44|51.1_-kmm_1.1_-est_SP.1_-cid_9668.1_-rai_50.1_-esc_2.1_-sta_1.1_&pas=1&lis=0&pag=2&ord=22 Value: 18 -
+2021-11-19 17:21:34 - DEBUG - etl_icarros - URL: https://www.icarros.com.br/ache/listaanuncios.jsp?bid=1&app=20&sop=nta_17|44|51.1_-kmm_1.1_-est_SP.1_-cid_9668.1_-rai_50.1_-esc_2.1_-sta_1.1_&pas=1&lis=0&pag=2&ord=22 Value: 19 -
+2021-11-19 17:21:34 - DEBUG - etl_icarros - URL: https://www.icarros.com.br/ache/listaanuncios.jsp?bid=1&app=20&sop=nta_17|44|51.1_-kmm_1.1_-est_SP.1_-cid_9668.1_-rai_50.1_-esc_2.1_-sta_1.1_&pas=1&lis=0&pag=2&ord=22 Value: 0 -
+2021-11-19 17:21:34 - DEBUG - etl_icarros - URL: https://www.icarros.com.br/ache/listaanuncios.jsp?bid=1&app=20&sop=nta_17|44|51.1_-kmm_1.1_-est_SP.1_-cid_9668.1_-rai_50.1_-esc_2.1_-sta_1.1_&pas=1&lis=0&pag=2&ord=22 Value: 1 -
+2021-11-19 17:21:34 - DEBUG - etl_icarros - URL: https://www.icarros.com.br/ache/listaanuncios.jsp?bid=1&app=20&sop=nta_17|44|51.1_-kmm_1.1_-est_SP.1_-cid_9668.1_-rai_50.1_-esc_2.1_-sta_1.1_&pas=1&lis=0&pag=2&ord=22 Value: 2 -
+2021-11-19 17:21:34 - DEBUG - etl_icarros - URL: https://www.icarros.com.br/ache/listaanuncios.jsp?bid=1&app=20&sop=nta_17|44|51.1_-kmm_1.1_-est_SP.1_-cid_9668.1_-rai_50.1_-esc_2.1_-sta_1.1_&pas=1&lis=0&pag=2&ord=22 Value: 3 -
+2021-11-19 17:21:34 - DEBUG - etl_icarros - URL: https://www.icarros.com.br/ache/listaanuncios.jsp?bid=1&app=20&sop=nta_17|44|51.1_-kmm_1.1_-est_SP.1_-cid_9668.1_-rai_50.1_-esc_2.1_-sta_1.1_&pas=1&lis=0&pag=2&ord=22 Value: 4 -
+2021-11-19 17:21:34 - DEBUG - etl_icarros - URL: https://www.icarros.com.br/ache/listaanuncios.jsp?bid=1&app=20&sop=nta_17|44|51.1_-kmm_1.1_-est_SP.1_-cid_9668.1_-rai_50.1_-esc_2.1_-sta_1.1_&pas=1&lis=0&pag=2&ord=22 Value: 5 -
+2021-11-19 17:21:34 - DEBUG - etl_icarros - URL: https://www.icarros.com.br/ache/listaanuncios.jsp?bid=1&app=20&sop=nta_17|44|51.1_-kmm_1.1_-est_SP.1_-cid_9668.1_-rai_50.1_-esc_2.1_-sta_1.1_&pas=1&lis=0&pag=2&ord=22 Value: 6 -
+2021-11-19 17:21:34 - DEBUG - etl_icarros - URL: https://www.icarros.com.br/ache/listaanuncios.jsp?bid=1&app=20&sop=nta_17|44|51.1_-kmm_1.1_-est_SP.1_-cid_9668.1_-rai_50.1_-esc_2.1_-sta_1.1_&pas=1&lis=0&pag=2&ord=22 Value: 7 -
+2021-11-19 17:21:34 - DEBUG - etl_icarros - URL: https://www.icarros.com.br/ache/listaanuncios.jsp?bid=1&app=20&sop=nta_17|44|51.1_-kmm_1.1_-est_SP.1_-cid_9668.1_-rai_50.1_-esc_2.1_-sta_1.1_&pas=1&lis=0&pag=2&ord=22 Value: 8 -
+2021-11-19 17:21:34 - DEBUG - etl_icarros - URL: https://www.icarros.com.br/ache/listaanuncios.jsp?bid=1&app=20&sop=nta_17|44|51.1_-kmm_1.1_-est_SP.1_-cid_9668.1_-rai_50.1_-esc_2.1_-sta_1.1_&pas=1&lis=0&pag=2&ord=22 Value: 9 -
+2021-11-19 17:21:34 - DEBUG - etl_icarros - URL: https://www.icarros.com.br/ache/listaanuncios.jsp?bid=1&app=20&sop=nta_17|44|51.1_-kmm_1.1_-est_SP.1_-cid_9668.1_-rai_50.1_-esc_2.1_-sta_1.1_&pas=1&lis=0&pag=2&ord=22 Value: 10 -
+2021-11-19 17:21:34 - DEBUG - etl_icarros - URL: https://www.icarros.com.br/ache/listaanuncios.jsp?bid=1&app=20&sop=nta_17|44|51.1_-kmm_1.1_-est_SP.1_-cid_9668.1_-rai_50.1_-esc_2.1_-sta_1.1_&pas=1&lis=0&pag=2&ord=22 Value: 11 -
+2021-11-19 17:21:34 - DEBUG - etl_icarros - URL: https://www.icarros.com.br/ache/listaanuncios.jsp?bid=1&app=20&sop=nta_17|44|51.1_-kmm_1.1_-est_SP.1_-cid_9668.1_-rai_50.1_-esc_2.1_-sta_1.1_&pas=1&lis=0&pag=2&ord=22 Value: 12 -
+2021-11-19 17:21:34 - DEBUG - etl_icarros - URL: https://www.icarros.com.br/ache/listaanuncios.jsp?bid=1&app=20&sop=nta_17|44|51.1_-kmm_1.1_-est_SP.1_-cid_9668.1_-rai_50.1_-esc_2.1_-sta_1.1_&pas=1&lis=0&pag=2&ord=22 Value: 13 -
+2021-11-19 17:21:34 - DEBUG - etl_icarros - URL: https://www.icarros.com.br/ache/listaanuncios.jsp?bid=1&app=20&sop=nta_17|44|51.1_-kmm_1.1_-est_SP.1_-cid_9668.1_-rai_50.1_-esc_2.1_-sta_1.1_&pas=1&lis=0&pag=2&ord=22 Value: 14 -
+2021-11-19 17:21:34 - DEBUG - etl_icarros - URL: https://www.icarros.com.br/ache/listaanuncios.jsp?bid=1&app=20&sop=nta_17|44|51.1_-kmm_1.1_-est_SP.1_-cid_9668.1_-rai_50.1_-esc_2.1_-sta_1.1_&pas=1&lis=0&pag=2&ord=22 Value: 15 -
+2021-11-19 17:21:34 - DEBUG - etl_icarros - URL: https://www.icarros.com.br/ache/listaanuncios.jsp?bid=1&app=20&sop=nta_17|44|51.1_-kmm_1.1_-est_SP.1_-cid_9668.1_-rai_50.1_-esc_2.1_-sta_1.1_&pas=1&lis=0&pag=2&ord=22 Value: 16 -
+2021-11-19 17:21:34 - DEBUG - etl_icarros - URL: https://www.icarros.com.br/ache/listaanuncios.jsp?bid=1&app=20&sop=nta_17|44|51.1_-kmm_1.1_-est_SP.1_-cid_9668.1_-rai_50.1_-esc_2.1_-sta_1.1_&pas=1&lis=0&pag=2&ord=22 Value: 17 -
+2021-11-19 17:21:34 - DEBUG - etl_icarros - URL: https://www.icarros.com.br/ache/listaanuncios.jsp?bid=1&app=20&sop=nta_17|44|51.1_-kmm_1.1_-est_SP.1_-cid_9668.1_-rai_50.1_-esc_2.1_-sta_1.1_&pas=1&lis=0&pag=2&ord=22 Value: 18 -
+2021-11-19 17:21:34 - DEBUG - etl_icarros - URL: https://www.icarros.com.br/ache/listaanuncios.jsp?bid=1&app=20&sop=nta_17|44|51.1_-kmm_1.1_-est_SP.1_-cid_9668.1_-rai_50.1_-esc_2.1_-sta_1.1_&pas=1&lis=0&pag=2&ord=22 Value: 19 -
+2021-11-19 17:21:34 - INFO - etl_icarros -  Job 1: Extract data OK -
+2021-11-19 17:21:34 - INFO - etl_icarros - Dados derivados OK -
+2021-11-19 17:21:34 - INFO - etl_icarros - Mudança de tipos OK -
+2021-11-19 17:21:34 - INFO - etl_icarros - Job 2: Tranform data OK -
+2021-11-19 17:21:36 - DEBUG - mysql.connector.connection - new_auth_plugin: caching_sha2_password -
+2021-11-19 17:21:39 - INFO - etl_icarros - Job 3: Loading data OK -
+2021-11-19 17:22:53 - INFO - etl_icarros - Job 4: Send Email OK -
