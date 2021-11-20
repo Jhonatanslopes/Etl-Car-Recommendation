@@ -2,14 +2,17 @@ import win32com.client as win32
 import sqlalchemy
 import pandas as pd
 import os
+from datetime import datetime
 
 
 def send_report(conn):
 
     try:
+        date_query = str(datetime.now().strftime('%Y-%m-%d'))
         query = '''
             SELECT * FROM tb_cars
-        '''
+                WHERE scrapy_date = "{}"
+        '''.format(date_query)
 
         data = pd.read_sql_query(query, conn)
         conn.dispose() 
@@ -32,15 +35,16 @@ def send_report(conn):
 
 
     # Send Email
+    date = datetime.now().strftime('%d-%m')
     outlook = win32.Dispatch('outlook.application')
     email = outlook.CreateItem(0)
 
     email.To = 'jhonatans.ti@icloud.com'
-    email.Subject = 'Etl'
+    email.Subject = f'Relatório Veículos - Icarros {date}'
     email.HTMLBody = '''
-    <p>Boa noite,</p>
+    <p>Olá,</p>
 
-    <p>Segue ETL.</p>
+    <p>Segue em anexo, relatório dos veículos coletados do site.</p>
 
     <p> </p>
 
@@ -51,7 +55,6 @@ def send_report(conn):
     '''
 
     # all path the file
-    file = 'C:/Users/Jhonatans/projects/ETL/car_recommendation/report/report_icarros.xlsx'
+    file = 'C:/Users/Jhonatans/projects/ETL/Etl-Car-Recommendation/report/report_icarros.xlsx'
     email.Attachments.Add(file)
     email.Send()
-    print('4: SEND OK')

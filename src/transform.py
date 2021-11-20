@@ -1,7 +1,25 @@
 import pandas as pd
 import re
+from datetime import datetime
+import os
+import logging
 
 def transform_data(data):
+
+    # -- Logging
+    path = 'C:/Users/Jhonatans/projects/ETL/Etl-Car-Recommendation/'
+    if not os.path.exists(path + 'logs'):
+        os.makedirs(path + 'logs')
+
+    logging.basicConfig(
+        filename= path + 'logs/etl_icarros.txt',
+        level = logging.DEBUG,
+        format = '%(asctime)s - %(levelname)s - %(name)s - %(message)s -',
+        datefmt= '%Y-%m-%d %H:%M:%S'
+    )
+
+    logger = logging.getLogger('etl_icarros')
+
 
     # Store transormation
     car_engine = []
@@ -9,6 +27,7 @@ def transform_data(data):
     color = []
     transmission = []
     description = []
+
 
     # model_brand
     data['brand'] =  data['model_brand'].apply(lambda x: x.split(' ')[0].strip('\n').lower())
@@ -18,9 +37,17 @@ def transform_data(data):
 
         position = text.find(' ')
         text_procured = text[position:]
-        car_engine.append(re.search('(\d.\d)', text_procured).group(1).lower())
 
+        try:
+            car_engine.append(re.search('(\d.\d)', text_procured).group(1).lower())
+
+        except AttributeError:
+            car_engine.append('')
+
+
+    # Motor
     data['motor'] = car_engine
+    data['motor'] = data['motor'].apply(lambda x: 'uninformed' if x == '' else x.replace('0 1', '1.0').replace('2 1', '2.0').replace('250', '2.5').replace('5 2', '5.2').replace('230', '2.3').replace('208', '2.0'))
 
     # price
     data['price'] = data['price'].apply(lambda x: x.split(' ')[1].replace('preço', ''))
@@ -35,7 +62,6 @@ def transform_data(data):
     data['state'] = 'sp'
 
 
-
     for i in data['year_km_color_cambio']:
 
         position_km = i.rfind('Km')
@@ -43,26 +69,46 @@ def transform_data(data):
 
         km.append(i[position_km:position_color].replace(' ', '').replace('\n', '').replace('Km', ''))
         color.append(i[position_color:].replace('\n', ' ').split('  ')[0].lower())
-        transmission.append(i[position_color:].replace('\n', ' ').split('  ')[1].lower())
-        description.append(i[position_color:].replace('\n', ' ').split('  ')[2].lower())
+
+        try:
+            transmission.append(i[position_color:].replace('\n', ' ').split('  ')[1].lower())
+
+        except IndexError:
+            regex = bool(re.search('auto\w.\w+', i))
+
+            if regex == True:
+                transmission.append('automático')
+
+            else:
+                transmission.append('manual')
+
+        try:
+            description.append(i[position_color:].replace('\n', ' ').split('  ')[2].lower())
+
+        except IndexError:
+            description.append(i[position_color:].replace('\n', ' '))
 
     data['km']  = km
     data['color']  = color
     data['transmission']  = transmission
     data['advertiser_description'] = description
 
-    # Drop columns
-    data.drop(columns=['model_brand', 'advertiser', 'year_km_color_cambio'], inplace=True)
+    logger.info('Dados derivados OK')
 
-    # change type
-    data['price'] = data['price'].apply(lambda x: x.replace('.', '').replace(',', '.')).astype('float')
+    # Clean color and transmission
     data['color'] = data['color'].apply(lambda x: x.replace('cor ', ''))
     data['transmission'] = data['transmission'].apply(lambda x: x.replace('câmbio ', ''))
 
-    """data['motor'] = data['motor'].apply(lambda x: re.search('(d\s\d)', str(x)).group(1)[1] + '.0' if re.search('(d\s\d)', str(x)).group(1)[0] == '0' else re.search('(d\s\d)', str(x)).group(1)[0] + '.0').astype('float')"""
+    # Drop columns
+    data.drop(columns=['model_brand', 'advertiser', 'year_km_color_cambio'], inplace=True)
 
-    data['motor'] = data['motor'].apply(lambda x: x.replace('0 1', '1.0').replace('2 1', '2.0')).astype('float')
-    data['km'] = data['km'].astype('float')
+    # -- Change type
+    data['price'] = data['price'].apply(lambda x: x.replace('.', '').replace(',', '.')).astype('float')
+    data['km'] = data['km'].apply(lambda x: x[:6] if len(x) > 8 else x).astype('float')
+    logger.info('Mudanca de tipos OK')
 
-    print('2: TRANSFORM OK')
+    # date scrapy
+    date_now = datetime.now().strftime('%Y-%m-%d')
+    data['scrapy_date'] = date_now
+
     return data

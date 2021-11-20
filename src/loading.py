@@ -1,9 +1,9 @@
 import sqlalchemy
 
+
 def loading_data(data):
 
     try:
-        
         database_username = 'root'
         database_password = 'J1l2c317171010'
         database_ip       = '127.0.0.1'
@@ -19,9 +19,7 @@ def loading_data(data):
         print('Connection Error')
 
     try:
-
-        data.to_sql(con=database_connection, name='tb_cars', if_exists='append', index=False)
-        print('3: LOADING OK')
+        data.to_sql('tb_cars', con=database_connection, if_exists='append', index=False)
 
     except sqlalchemy.exc.InvalidRequestError:
         print('Loading Error')
